@@ -13,15 +13,11 @@
         <img src="https://img.shields.io/visual-studio-marketplace/d/colourafredi.vscode-deepseek?label=Downloads" />
     </a>
 </h3>
-<p align="center">Keyless, Magic-free, Login-free, Multilingual</p>
-<p align="center">免Key，免魔法，免登录，多语言</p>
-<p align="center">無需Key，無需魔法，無需登入，多語言</p>
+<p align="center">Free, Magic-free, Login-free, Multilingual</p>
+<p align="center">免费，免魔法，免登录，多语言</p>
+<p align="center">免費，無需魔法，無需登入，多語言</p>
 
 **English**
-
-### Usage Instructions
-
-Press the shortcut key `Ctrl+Shift+P (Command+Shift+P)`, type `Deepseek: Set up a custom proxy server🌐`, press Enter, and then enter the proxy server URL. Press Enter again to complete the configuration.
 
 ## Features
 
@@ -56,6 +52,9 @@ Press the shortcut key `Ctrl+Shift+P (Command+Shift+P)`, type `Deepseek: Set up 
 - **Deepseek: Export markdown 📤**: Export the current conversation as a markdown file
 - **Deepseek: Bind your own proxy server 🌐**: Set and use your own proxy server by inputting your proxy server information
 - **Deepseek: Unbind your own proxy server 🌐**: Unbind your own proxy server
+- **Deepseek: Bind model**: Bind the model to use (optional: deepseek-chat, deepseek-coder, deepseek-reasoner)
+- **Deepseek: Unbind model**: Unbind the current used model
+- **Deepseek: Clear all custom bindings**: Clear all custom settings including API key, proxy server, and model settings
 
 ## 📖 Usage
 
@@ -186,13 +185,15 @@ In summary, the `temperature` parameter can help you find a balance between inno
 - Or share design architecture through the Official Accounts<br/>
   <img src="https://vleedesigntheory.github.io/offical_accounts.jpg" height="256">
 
-## Thanks for your sponsorship, your support helps maintain this project
+## Benefits
 
-<img src="https://static.docs-hub.com/w_e_c_h_a_t_1738581207393.jpg" height="256">
-<img src="https://static.docs-hub.com/a_l_i_p_a_y_1738581250846.jpg" height="256">
+SiliconCloud's promotional campaign is now in full swing, with 20 million Tokens being given away! For each friend you invite to become a new SiliconCloud user, both you and your friend will receive 20 million Tokens (equivalent to 14 yuan platform quota). The more invites, the more rewards - enjoy the full SiliconCloud experience!
 
+[Click here to claim](https://cloud.siliconflow.cn/i/Cz4wrwb8)
 
-**中文**
+Scan the QR code to claim benefits
+
+![](https://static.docs-hub.com/s_f_1738808704414.png)
 
 ### 使用方式
 
@@ -213,9 +214,9 @@ In summary, the `temperature` parameter can help you find a balance between inno
 - **Deepseek:检查下面代码是否有 BUG 并给出修复建议 🐛**: 使用查找代码错误功能来分析和突出代码中的错误
 - **Deepseek:详细讲解下面代码 💬**: 使用解释代码功能来更好地理解您的代码
 - **Deepseek:重构下面代码并告诉我你改动了哪里 🔧**: 重构下面代码并告诉我你改动了哪里
-- **Deepseek:为下面的代码添加测试**: 为下面的代码添加测试
+- **Deepseek:为下面的代码添加测试 🧪**: 为下面的代码添加测试
 - **Deepseek:选择预定义提示词 🔍**: 选择预定义提示词
-- **Deepseek:自定义提问 ✏️❓**: 为 Deepseek 生成自定义查询
+- **Deepseek:自定义提问 ❓**: 为 Deepseek 生成自定义查询
 - **Deepseek:增加预定义提示词 ➕**: 增加预定义提示词
 - **Deepseek:修改预定义提示词 ✏️**: 修改预定义提示词
 - **Deepseek:绑定自己的 API key🔀🔑**: 通过组合快捷键和命令轻松更新 API key
@@ -228,6 +229,9 @@ In summary, the `temperature` parameter can help you find a balance between inno
 - **Deepseek:导出 markdown📤**: 可以导出当前的会话为 markdown 文件
 - **Deepseek:绑定自己的代理服务器 🌐**: 通过输入自己的代理服务器信息，设定并使用自己的代理服务器
 - **Deepseek:解绑自己的代理服务器 🌐**: 解绑自己的代理服务器
+- **Deepseek:绑定模型**: 绑定要使用的模型（可选：deepseek-chat, deepseek-coder, deepseek-reasoner）
+- **Deepseek:解绑模型**: 解绑当前使用的模型
+- **Deepseek:清除所有自定义绑定**: 清除所有自定义设置，包括 API key、代理服务器和模型设置
 
 ## 📖 使用
 
@@ -235,7 +239,7 @@ In summary, the `temperature` parameter can help you find a balance between inno
 
 从[VSCode 市场](https://marketplace.visualstudio.com/items?itemName=colourafredi.vscode-deepseek)安装扩展
 
-### 发起提问❓
+### 发起提问 ❓
 
 按下快捷键`Ctrl+Shift+P(Command + Shift + P )`,输入`Deepseek:发起提问 ❓`,按 Enter 键,输入你的问题,再次按 Enter 键,答案面板会自动打开并提供答案。
 
@@ -267,53 +271,17 @@ DeepSeek 的 API key 是一种用于验证和授权访问 DeepSeek 的 API（应
 
 你也可以打开任何文件,右键选择`Deepseek:验证API key ✔️🔑`,按 Enter 键验证 API key。如果验证成功,会显示 API key 的余额、到期日期和支持的模型。如果验证失败,你会收到 API key 无效的通知。
 
-如果你希望使用 DeepSeek R1,你需要[点击这里](https://DeepSeek.com/waitlist/DeepSeek R1-api)申请 DeepSeek R1 API 权限。
-
 ### 解绑 API key🗑️🔑
 
-按下快捷键`Ctrl+Shift+P(Command + Shift + P )`,输入`Deepseek:解绑API key 🔄🔑`,你就可以解绑你自己的 API key
+按下快捷键`Ctrl+Shift+P(Command + Shift + P )`,输入`Deepseek:解绑API key 🗑️🔑`,你就可以解绑你自己的 API key。
 
-### 为什么这段代码有错误？🐛💻
+### 绑定模型
 
-打开任何文件,选择一段代码(如果没有选择代码,将会考虑文件的全部内容),然后右键选择菜单中的`Deepseek:为什么这段代码出现了BUG? 🐛💻`。这可以帮助你分析代码并突出显示任何错误。
+按下快捷键`Ctrl+Shift+P(Command + Shift + P )`,输入`Deepseek:绑定模型`,按 Enter 键,输入要使用的模型名称（可选：deepseek-chat, deepseek-coder, deepseek-reasoner）,再次按 Enter 键确认。
 
-### 帮我解释这段代码？💬📖
+### 解绑模型
 
-打开任何文件,选择一段代码(如果没有选择代码,将会考虑文件的全部内容),然后右键选择菜单中的`Deepseek:讲解下面代码 💬📖`。这可以帮助解释你的代码。
-
-### 重构这段代码并告诉我你改动了哪里 🔧💻
-
-打开任何文件,选择一段代码(如果没有选择代码,将会考虑文件的全部内容),然后右键选择菜单中的`Deepseek:重构下面代码并告诉我你改动了哪里? 🔧💻`。这可以帮助重构你的代码。
-
-### 为我添加一些测试代码 ➕🧪💻
-
-打开任何文件,选择一段代码(如果没有选择代码,将会考虑文件的全部内容),然后右键选择菜单中的`Deepseek:为我这段代码添加测试 ➕🧪`。这可以帮助为你的代码添加测试。
-
-### 自定义问题 ✏️❓
-
-打开任何文件,选择一段代码(如果没有选择代码,将会考虑文件的全部内容),然后右键选择菜单中的`Deepseek:自定义提问 ✏️❓`。会弹出一个输入框,输入你的问题,按 Enter 键,你就会得到答案。
-
-### 增加预定义提示词 ➕
-
-按下快捷键`Ctrl+Shift+P(Command + Shift + P )`,输入`Deepseek:增加预定义提示词 ➕`,按 Enter 键,你可以输入预定义提示词,可以是标题或内容。
-输入之后在提问输入框可以键入`/`弹出预定义选择框,然后按上下方向键可以选择预定义提示词,回车或点击可以确定并自动填入提问输入框。
-
-### 使用 JSON 文件编辑预定义提示词 ✏️
-
-按下快捷键`Ctrl+Shift+P(Command + Shift + P )`,输入`Deepseek:编辑预定义提示词 ✏️`,按 Enter 键,你可以打开一个`prompts.json`配置文件来统一编辑预定义提示词。
-输入之后,在提问输入框中输入`/`,会弹出预定义选择框。接着按上下方向键选择预定义提示词,按 Enter 或点击以确定并自动填入提问输入框。
-
-### 绑定自己的 API key🔀🔑
-
-按下快捷键`Ctrl+Shift+P(Command + Shift + P )`,输入`Deepseek:绑定自己的API key🔀🔑`,按 Enter 键,输入 API key,再次按 Enter 键,API key 就会更新。
-
-### 验证 API key✔️🔑
-
-按下快捷键`Ctrl+Shift+P(Command + Shift + P )`,输入`Deepseek:验证API key✔️🔑`,按 Enter 键,API key 就会被验证。
-
-### 解绑 API key🗑️🔑
-
-按下快捷键`Ctrl+Shift+P(Command + Shift + P )`,输入`Deepseek:解绑 API key🗑️🔑`,你就可以解绑你自己的 API key。
+按下快捷键`Ctrl+Shift+P(Command + Shift + P )`,输入`Deepseek:解绑模型`,按 Enter 键即可解绑当前使用的模型。
 
 ### 修改显示语言 🌍
 
@@ -344,6 +312,12 @@ DeepSeek 的 API key 是一种用于验证和授权访问 DeepSeek 的 API（应
 
 DeepSeek API 由一组具有不同功能和价格点的[模型](https://api-docs.deepseek.com/quick_start/pricing)驱动。你也可以通过微调对我们的原始基础模型进行有限的定制,以适应你的特定使用场景。
 
+可用的模型包括：
+
+- deepseek-chat：通用对话模型
+- deepseek-coder：专门用于代码相关任务的模型
+- deepseek-reasoner：具有强大推理能力的模型
+
 #### 🌡️ 温度
 
 在 DeepSeek API 中,`temperature`是一个控制生成文本随机性的参数。它的值在 0 到 1 之间(包括 0 和 1)。
@@ -364,7 +338,12 @@ DeepSeek API 由一组具有不同功能和价格点的[模型](https://api-docs
 - 或者通过公众号分享设计架构<br/>
   <img src="https://vleedesigntheory.github.io/offical_accounts.jpg" height="256">
 
-## 创作和维护不易，感谢您的赞助
+## 福利
 
-<img src="https://static.docs-hub.com/w_e_c_h_a_t_1738581207393.jpg" height="256">
-<img src="https://static.docs-hub.com/a_l_i_p_a_y_1738581250846.jpg" height="256">
+SiliconCloud 送福利活动火热开启，2000 万 Tokens 送不停！每邀请一位好友成为 SiliconCloud 新用户，您与好友均可获赠 2000 万 Tokens（14 元平台配额）。邀请越多，奖励越多，畅享体验 SiliconCloud！
+
+[点击领取地址](https://cloud.siliconflow.cn/i/Cz4wrwb8)
+
+扫描二维码领取福利
+
+![](https://static.docs-hub.com/s_f_1738808704414.png)
