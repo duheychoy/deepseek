@@ -1,94 +1,127 @@
-# DeepSeek 本地部署保姆级教程
+# DeepSeek Local Deployment Guide
 
-> 本教程将指导您如何使用 Ollama 在本地轻松部署 DeepSeek 模型，即使您不是技术专家也能轻松上手。
+> This tutorial will guide you on how to easily deploy DeepSeek models locally using Ollama, even if you're not a technical expert.
 
-## 一、前言
+## I. Introduction
 
-DeepSeek 是一个强大的 AI 模型，通过 Ollama 这个便捷工具，我们可以轻松实现本地部署。Ollama 不仅支持 DeepSeek，还支持通义千问等多个开源模型，是一个非常实用的 AI 模型运行平台。
+DeepSeek is a powerful AI model that we can easily deploy locally through the convenient tool Ollama. Ollama not only supports DeepSeek but also multiple open-source models like Tongyi Qianwen, making it a very practical AI model running platform.
 
-## 二、安装 Ollama
+## II. Installing Ollama
 
-1. 访问 Ollama 官网：https://ollama.com/
-2. 点击 "Download" 按钮
-3. 选择适合您系统的版本下载（本教程以 Windows 为例）
-4. 下载完成后运行安装程序
-5. 点击 "Install" 按钮完成安装
+1. Visit Ollama's official website: https://ollama.com/
+2. Click the "Download" button
+3. Choose the version suitable for your system (this tutorial uses Windows as an example)
+4. Run the installer after downloading
+5. Click the "Install" button to complete installation
 
-> 提示：如果下载速度较慢，可以尝试使用迅雷等下载工具加速。
+> Tip: If the download speed is slow, try using download tools like Thunder to accelerate.
 
+![](https://static.docs-hub.com/1_1739022671446.png)
 
+![](https://static.docs-hub.com/2_1739022688607.png)
 
+![](https://static.docs-hub.com/3_1739022701606.png)
 
-## 三、选择并下载模型
+## III. Selecting and Downloading Models
 
-1. 在 Ollama 官网点击左上角 "Models"
-2. 找到 deepseek-r1 系列模型
-3. 根据您的设备配置选择合适的模型版本：
-   - 入门级设备建议选择 1.5b 版本
-   - 性能较好的设备可以尝试 7b 或 14b 版本
-   - 具体选择可以参考设备配置要求
+1. Click "Models" in the top left corner of Ollama's website
+2. Find the deepseek-r1 series models
+3. Choose a suitable model version based on your device configuration:
 
-4. 打开命令提示符（Win+R 输入 cmd）
-5. 输入模型下载命令：
+   - Entry-level devices should choose the 1.5b version
+   - Better performing devices can try 7b or 14b versions
+   - Specific choices can refer to device configuration requirements
+
+![](https://static.docs-hub.com/4_1739022716714.png)
+
+![](https://static.docs-hub.com/5_1739022755327.png)
+
+4. Open Command Prompt (Win+R, type cmd)
+5. Enter the model download command:
    ```bash
-   ollama run deepseek-r1:1.5b   # 1.5b版本
-   # 或
-   ollama run deepseek-r1:7b     # 7b版本
-   # 或
-   ollama run deepseek-r1:14b    # 14b版本
+   ollama run deepseek-r1:1.5b   # 1.5b version
+   # or
+   ollama run deepseek-r1:7b     # 7b version
+   # or
+   ollama run deepseek-r1:14b    # 14b version
    ```
 
-## 四、使用模型对话
+![](https://static.docs-hub.com/6_1739022780336.png)
+![](https://static.docs-hub.com/7_1739022767999.png)
 
-1. 模型下载完成后会自动进入对话模式
-2. 在提示符 `>>>` 后输入问题并按回车
-3. 常用命令：
-   - `/clear` - 清除上下文，重新开始对话
-   - `/bye` - 退出对话模式
-   - 直接输入问题 - 开始对话
+## IV. Using the Model for Conversation
 
-## 五、日常使用说明
+1. After the model download completes, it will automatically enter conversation mode
+2. Type your question after the `>>>` prompt and press Enter
+3. Common commands:
+   - `/clear` - Clear context, start a new conversation
+   - `/bye` - Exit conversation mode
+   - Direct input - Start conversation
 
-### 启动模型
-1. 按 Win+R 打开运行
-2. 输入 cmd 打开命令提示符
-3. 输入启动命令：`ollama run 模型名称`
-   例如：`ollama run deepseek-r1:1.5b`
+![](https://static.docs-hub.com/8_1739022792571.png)
 
-### 模型管理命令
-- 查看已安装模型：`ollama list`
-- 删除模型：`ollama rm 模型名称`
-  例如：`ollama rm deepseek-r1:1.5b`
-- 查看所有命令：直接输入 `ollama`
+## V. Daily Usage Instructions
 
-## 六、注意事项
+### Starting the Model
 
-1. 硬件要求：
-   - 1.5b 版本：最低 8GB 内存
-   - 7b 版本：建议 16GB 以上内存
-   - 14b 版本：建议 32GB 以上内存
+1. Press Win+R to open Run
+2. Type cmd to open Command Prompt
+3. Enter the start command: `ollama run model_name`
+   Example: `ollama run deepseek-r1:1.5b`
 
-2. 存储空间：
-   - 请确保有足够的硬盘空间（模型文件较大）
-   - 1.5b 约需 3GB
-   - 7b 约需 15GB
-   - 14b 约需 30GB
+### Model Management Commands
 
-3. 使用建议：
-   - 首次使用建议从小模型开始尝试
-   - 确保网络稳定，避免下载中断
-   - 使用时保持电脑有足够的可用内存
+- View installed models: `ollama list`
+- Delete model: `ollama rm model_name`
+  Example: `ollama rm deepseek-r1:1.5b`
+- View all commands: Simply type `ollama`
 
-## 七、常见问题解答
+  ![](https://static.docs-hub.com/9_1739022801741.png)
+  ![](https://static.docs-hub.com/1_0_1739022825603.png)
+  ![](https://static.docs-hub.com/1_1_1739022834662.png)
 
-1. Q: 模型下载速度慢怎么办？
-   A: 可以尝试使用迅雷等下载工具，或者在网络良好的环境下进行下载
+## VI. Important Notes
 
-2. Q: 如何切换不同的模型？
-   A: 退出当前模型对话后，使用 `ollama run` 命令启动其他模型
+1. Hardware Requirements:
 
-3. Q: 模型占用空间太大怎么办？
-   A: 可以使用 `ollama rm` 命令删除不常用的模型，需要时再重新下载
+   - 1.5b version: Minimum 8GB RAM
+   - 7b version: Recommended 16GB+ RAM
+   - 14b version: Recommended 32GB+ RAM
 
-4. Q: 运行时提示内存不足？
-   A: 尝试使用更小的模型版本，或关闭其他占用内存的程序
+2. Storage Space:
+
+   - Ensure sufficient disk space (model files are large)
+   - 1.5b requires about 3GB
+   - 7b requires about 15GB
+   - 14b requires about 30GB
+
+3. Usage Recommendations:
+   - For first-time users, start with smaller models
+   - Ensure stable network connection to avoid download interruptions
+   - Maintain sufficient available memory while using
+
+## VII. FAQ
+
+1. Q: What if the model download is slow?
+   A: Try using download tools like Thunder, or download in a better network environment
+
+2. Q: How to switch between different models?
+   A: Exit current model conversation, then use `ollama run` command to start another model
+
+3. Q: What if the model takes up too much space?
+   A: Use `ollama rm` command to delete rarely used models, download again when needed
+
+4. Q: Getting insufficient memory error?
+   A: Try using a smaller model version, or close other memory-intensive programs
+
+## VIII. Accessing Models via API
+
+### 1. API Basic Information
+
+- Default API address: `http://localhost:11434/api`
+- Supported request method: POST
+- Data format: JSON
+
+### 2. Main API Endpoints
+
+#### Generate Response
