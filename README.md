@@ -1,349 +1,260 @@
-<h2 align="center">
+<p align="center">
     <img src="https://static.docs-hub.com/deepseek.png" height="64">
-    <br>Deepseek
-</h2>
-<h3 align="center">
-    <a href="https://marketplace.visualstudio.com/items?itemName=colourafredi.vscode-deepseek" alt="Marketplace version">
-        <img src="https://img.shields.io/visual-studio-marketplace/v/colourafredi.vscode-deepseek?label=VS%20Code%20Marketplace" />
-    </a>
-    <a href="https://marketplace.visualstudio.com/items?itemName=colourafredi.vscode-deepseek" alt="Marketplace download count">
-        <img src="https://img.shields.io/visual-studio-marketplace/stars/colourafredi.vscode-deepseek" />
-    </a>
-    <a href="https://marketplace.visualstudio.com/items?itemName=colourafredi.vscode-deepseek" alt="Marketplace download count">
-        <img src="https://img.shields.io/visual-studio-marketplace/d/colourafredi.vscode-deepseek?label=Downloads" />
-    </a>
-</h3>
-<p align="center">Free, Magic-free, Login-free, Multilingual</p>
-<p align="center">免费，免魔法，免登录，多语言</p>
-<p align="center">免費，無需魔法，無需登入，多語言</p>
+</p>
+ <br>DeepSeek
+<div align="center">
 
-**English**
+[![Version](https://img.shields.io/visual-studio-marketplace/v/colourafredi.vscode-deepseek?label=VS%20Code%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=colourafredi.vscode-deepseek)
+[![Rating](https://img.shields.io/visual-studio-marketplace/stars/colourafredi.vscode-deepseek)](https://marketplace.visualstudio.com/items?itemName=colourafredi.vscode-deepseek)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/colourafredi.vscode-deepseek?label=Downloads)](https://marketplace.visualstudio.com/items?itemName=colourafredi.vscode-deepseek)
 
-## Features
+<p align="center">Free | No Login Required | Multi-language</p>
+<p align="center">免费 | 免登录 | 多语言</p>
 
-- 💻 Copy and insert code into current and new files
-- 🚀 Add predefined prompts for quick input during questioning
-- 📤 Export code or entire conversations as markdown files
-- 💾 Save your conversation history on your local hard drive, replay, continue, and manage at any time
-- 🔑 Bind your own API key that supports DeepSeek R1 to use the DeepSeek R1 model
-- 🗣️ Bind your own API key to support streaming context conversation and you can pause the response at any time
-- 🌐 Use your own DeepSeek server
-- 🔒 Privacy secured, all information is saved on your local hard drive, without uploading any information to any server
-- 🌍 The plugin supports multiple languages, including English, Simplified Chinese, and Traditional Chinese. If you wish to add a new language, please raise an [issue](https://github.com/zhangrenyang/deepseek/issues) here.
 
-## Commands
+</div>
 
-- **Check the following code for bugs and provide repair suggestions 🐛**: Use the code error-finding feature to analyze and highlight errors in the code
-- **Explain the following code in detail 💬**: Use the code explanation feature for a better understanding of your code
-- **Refactor this code and tell me what did you change 🔧**: Refactor code and understand clearly what you've changed
-- **Deepseek: Add tests for the following code 🧪**: Easily add tests for your code
-- **Deepseek: Add Predefined Prompt ➕**: Add predefined prompts through a combination of shortcuts and input
-- **Deepseek: Choose Predefined Prompt 🔍**: Choose a predefined prompt
-- **Deepseek: Custom prompt ❓**: Generate custom queries for Deepseek
-- **Deepseek: Edit predefined prompt ✏️**: Edit predefined prompt
-- **Deepseek: Bind your own API key 🔀🔑**: Easily bind your own API key using a combination of shortcuts and commands
-- **Deepseek: Validate API key ✔️🔑**: Validate your API key to ensure its validity and correct function
-- **Deepseek: Unbind API key 🗑️🔑**: Unbind Your Own API key
-- **Deepseek: Set language 🌍**: Set the language you want with shortcuts and commands. The default is English
-- **Deepseek: Set up a custom proxy server 🌐**: Set and use your own proxy server by inputting your proxy server information
-- **Deepseek: Cancel proxy server settings 🌐**: Cancel proxy server settings
-- **Deepseek: Ask a question ❓**: Click on the Deepseek icon and input your content, then press Enter to get a reply from Deepseek
-- **Deepseek: Clear list 🗑️**: Clear the current conversation
-- **Deepseek: Export markdown 📤**: Export the current conversation as a markdown file
-- **Deepseek: Bind your own proxy server 🌐**: Set and use your own proxy server by inputting your proxy server information
-- **Deepseek: Unbind your own proxy server 🌐**: Unbind your own proxy server
-- **Deepseek: Bind model**: Bind the model to use (optional: deepseek-chat, deepseek-coder, deepseek-reasoner)
-- **Deepseek: Unbind model**: Unbind the current used model
-- **Deepseek: Clear all custom bindings**: Clear all custom settings including API key, proxy server, and model settings
+## 🚀 Key Features
 
-## 📖 Usage
+- 💻 **Code Operations**: One-click copy, insert code into current file or new file
+- 🔍 **Smart Analysis**: Code explanation, error detection, refactoring suggestions, test generation
+- 📝 **Custom Prompts**: Support adding and managing predefined prompts to improve efficiency
+- 💾 **Local Storage**: Chat history saved locally for replay, continuation and management
+- 🌐 **Proxy Support**: Configure your own proxy server for flexible API access
+- 🔒 **Privacy Protection**: All information stored locally, no data uploaded
+- 🌍 **Multi-language**: Support Chinese, English and other language interfaces
+- 🎯 **Model Selection**: Support multiple DeepSeek models for different needs
 
-### 🔧 Install the extension
+## 📦 Installation
 
-Install the extension from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=colourafredi.vscode-deepseek)
+1. Open VS Code
+2. Press Ctrl+Shift+P to open command palette
+3. Delete > and type ext install colourafredi.vscode-deepseek
+4. Press Enter to install
 
-### Ask question ❓
+![](https://static.docs-hub.com/i_n_s_t_a_l_l_v_s_c_o_d_e_1739010154275.png)
 
-Press the shortcut key `Ctrl+Shift+P (Command+Shift+P)`, type `Deepseek: Ask a question ❓`, press Enter, type your question, press Enter again, and the answer panel will automatically open to provide an answer.
+Or directly visit [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=colourafredi.vscode-deepseek) to install
 
-Alternatively, click on the Deepseek icon on the left, enter what you want to say, press Enter, and wait a few seconds for Deepseek's reply to appear.
+## 🛠️ Main Features
 
-On the answer page, the first small icon is for copying to the clipboard, the second small icon is for inserting the answer at the current cursor position, and the third small icon is for creating and opening a file and inserting the answer at the current cursor position.
+### 1. Code Analysis and Optimization
+- **Code Explanation**: Detailed explanation of code logic and implementation
+- **Error Detection**: Find and fix bugs in code
+- **Code Refactoring**: Optimize code structure, improve code quality
+- **Test Generation**: Automatically generate unit test code
 
-### 🔑 API key
+### 2. Smart Dialogue
+- **Context Dialogue**: Support multi-turn conversations with context understanding
+- **Streaming Response**: Real-time display of AI answers
+- **Session Management**: Save, export, clean chat history
+- **Custom Prompts**: Support preset common prompts
 
-### 📚 What is an API key?
+### 3. Personalization
+- **API Key Management**: Support binding your own API Key
+- **Proxy Settings**: Configure custom proxy server
+- **Model Selection**: Support multiple DeepSeek models
+- **Interface Language**: Switch between multiple interface languages
 
-DeepSeek's API key is a mechanism for authenticating and authorizing access to DeepSeek's API (Application Programming Interface). An API key is like a password, allowing developers to interact with DeepSeek's services in a secure manner. The API key is a critical factor in establishing a connection between the server and the client, used to verify the legitimacy of the request. Typically, only users with a valid API key can access a specific API.
+## 💡 User Guide
 
-Here are the general steps to use the DeepSeek API key:
+### Quick Start
+1. After installation, click the DeepSeek icon on the left side of VS Code
+2. Enter your question in the input box and press Enter
+3. Wait for AI response, you can:
+   - Copy the answer
+   - Insert into current file
+   - Create new file to save
 
-- Create an DeepSeek account: You first need to [click here](https://chat.deepseek.com/sign_in) to create an DeepSeek account, and then generate your API key in that account.
+### Code-related Functions
+1. Select code snippet
+2. Right-click to choose DeepSeek commands:
+   - Explain code
+   - Check errors
+   - Refactor and optimize
+   - Generate tests
 
-- Generate API key: In the DeepSeek dashboard, [click here](https://platform.deepseek.com) you can generate a new API key.
+### Custom Settings
+- **API Key**: Bind your own API Key for more features
+- **Proxy Server**: Configure proxy address for stable access
+- **Model Selection**: Choose different AI models based on needs
+- **Prompt Management**: Add, edit, select predefined prompts
 
-### Bind your own API key 🔀🔑
+## ⚙️ Configuration Guide
 
-Press the shortcut `Ctrl+Shift+P (Command+Shift+P)`, enter `Deepseek: Bind your own API key 🔀🔑`, press Enter, input the API key, press Enter again, and the API key will be updated.
+### Configurable Parameters:
 
-You can also open any file, right-click, select `Deepseek: Bind your own API key 🔀🔑`, input the API key, and press Enter to update the API key. If the update is successful, the balance and expiry date of the API key and supported models will be displayed. If the update fails, you will be prompted to re-enter the API key.
+- `deepseek.proxy`: Set proxy server
+- `deepseek.model`: Choose model to use
+- `deepseek.apikey`: Set API Key
+- `deepseek.temperature`: Set model temperature (0-2)
+- `deepseek.max_tokens`: Set maximum tokens
+- `deepseek.lang`: Set interface language
 
-### Validate API key ✔️🔑
+### Configuration Steps:
+1. Click File->Preferences->Settings->Extensions->DeepSeek
 
-Press the shortcut `Ctrl+Shift+P (Command+Shift+P)`, enter `Deepseek: Validate API key ✔️🔑`, press Enter, and the API key will be validated.
+![](https://static.docs-hub.com/s_e_t_t_i_n_g_s_1739012644887.png)
 
-You can also open any file, right-click, select `Deepseek: Validate API key ✔️🔑`, and press Enter to validate the API key. If the validation is successful, the balance and expiry date and supported models of the API key will be displayed. If the validation fails, you will receive API key invalid notification.
+### Configure Official API Key
 
-If you wish to use DeepSeek R1, you need to [click here](https://DeepSeek.com/waitlist/DeepSeek R1-api) to apply for DeepSeek R1 API permissions.
+- [Official API Key Application](https://platform.deepseek.com/api_keys)
+- [Available Models](https://api-docs.deepseek.com/zh-cn/quick_start/pricing)
 
-### Unbind API key 🗑️🔑
+| Config Item | Value |
+|--------|-----|
+| DeepSeek:Proxy | https://api.deepseek.com |
+| Deepseek:Apikey | sk-c50d5356a45c4c7988b3df82fb1295e3 |
+| DeepseekModel | deepseek-chat, deepseek-reasoner |
 
-Press the shortcut `Ctrl+Shift+P (Command+Shift+P)`, enter `Deepseek: Unbind API key 🗑️🔑`, and you can then unbind Your Own API key.
+![](https://static.docs-hub.com/c_o_n_f_i_g_1739012997753.png)
 
-### Why is there a bug in this code? 🐛
 
-Open any file, select a piece of code (if no code is selected, the whole content of the file will be considered), then right-click and choose `Deepseek: Why is there a bug in this code? 🐛💻` from the menu. This can help you analyze your code and highlight any errors.
+### Configure SiliconFlow API Key
 
-### Help me explain the code? 💬
+- [SiliconFlow API Key Application](https://cloud.siliconflow.cn/account/ak)
+- [Available Models](https://cloud.siliconflow.cn/models)
 
-Open any file, select a piece of code (if no code is selected, the whole content of the file will be considered), then right-click and choose `Deepseek: Help me explain the code? 💬` from the menu. This can help explain your code.
+| Config Item | Value |
+|--------|-----|
+| DeepSeek:Proxy | https://api.siliconflow.cn |
+| Deepseek:Apikey | sk-kgahvlalrbfjyftxrcoiiliopeblhxsgrxtrrwgiqwwxwxth |
+| DeepseekModel | deepseek-ai/DeepSeek-V3, deepseek-ai/DeepSeek-R1 |
 
-### Refactor this code and tell me what did you change? 🔧💻
+![](![](https://static.docs-hub.com/s_e_t_t_i_n_g_s_2_1739013334350.png))
 
-Open any file, select a piece of code (if no code is selected, the whole content of the file will be considered), then right-click and choose `Deepseek: Refactor this code and tell me what did you change? 🔧💻` from the menu. This can help refactor your code.
 
-### Add some tests for this code for me 🧪
+## 🤝 Community
 
-Open any file, select a piece of code (if no code is selected, the whole content of the file will be considered), then right-click and choose `Deepseek: Add some test for this code for me 🧪` from the menu. This can help add tests for your code.
+- QQ Group: 957284835 [Click to Join](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=KWl8ZyDCDrBRn4NCXUnr5MkyMTl0nwSK&authKey=iGZm2aZDWgj83khMCftofy7j8YIf0ulFSr4gaeXRbcOpTMWA1RRg%2BHRJ0A%2FVdPaa&noverify=0&group_code=957284835)
+- Feedback: [GitHub Issues](https://github.com/zhangrenyang/deepseek/issues)
 
-### Custom prompt ❓
+## 🎁 Special Offer
 
-Open any file, select a piece of code (if no code is selected, the whole content of the file will be considered), then right-click and choose `Deepseek: Custom prompt ❓` from the menu. An input box will pop up, type your question, press Enter, and you will get an answer.
-
-### Add predefined prompts ➕
-
-Press the shortcut `Ctrl+Shift+P (Command+Shift+P)`, enter `Deepseek: Add Predefined Prompt ➕`, press Enter, and you can enter predefined prompts, which could be a title or content.
-After input, in the question input box, you can type / to pop up a predefined selection box, then use the up and down arrow keys to select a predefined prompt. Press Enter or click to confirm and it will be automatically filled into the question input box.
-
-### Edit Predefined Prompts Using a JSON File ✏️
-
-Press the shortcut `Ctrl+Shift+P (Command+Shift+P)` and type `Deepseek: Edit Predefined Prompts ✏️`, then press Enter. This will open the `prompts.json` configuration file where you can edit predefined prompts in one place.
-
-After doing this, you can type `/` in the input box to display a dropdown list of predefined prompts. Use the up and down arrow keys to navigate through the prompts, and press Enter or click to select one and have it automatically inserted into the input box.
-
-### Choose Predefined Prompt ➕
-
-Press the shortcut keys `Ctrl+Shift+P (Command+Shift+P on Mac)`, type in `Deepseek: Choose Predefined Prompt ➕`, a selection window will pop up for users to choose their custom prompts they have added.
-
-### Set language 🌍
-
-Press the shortcut `Ctrl+Shift+P (Command+Shift+P)`, enter `Deepseek: Set language 🌍`, press Enter, and select the language you want to set. The default is English.
-
-### Set up a custom proxy server 🌐
-
-Press the shortcut `Ctrl+Shift+P (Command+Shift+P)`, enter `Deepseek: Set up a custom proxy server 🌐`, then by entering your own proxy server, you can use your own proxy server.
-
-### Settings ❓
-
-- [DeepSeek API Guide](https://api-docs.deepseek.com)
-
-Users can configure the settings of VS Code plugins by following these steps:
-
-1. **Open Settings:**
-   In VS Code, press the shortcut `Ctrl+,` or select `File > Preferences > Settings` from the top menu bar (on Mac it is `Code > Preferences > Settings`).
-
-2. **Search for Plugin Settings:**
-   In the settings search bar, enter the name of the plugin or keywords of the configuration parameters. VS Code will dynamically display the configuration options that match your input.
-
-3. **Modify Configuration Parameters:**
-   Click the configuration parameter you want to modify, then enter a new value or select a new option. You can also click the edit icon (the pencil icon) to add the configuration parameter to your user settings or workspace settings, and then modify it there.
-
-4. **Save Modifications:**
-   VS Code automatically saves your settings after you make modifications. Close the settings tab or click elsewhere, and the new configuration will take effect.
-
-#### 🧠 Model
-
-The DeepSeek API is powered by a diverse set of [models](https://api-docs.deepseek.com/quick_start/pricing) with different capabilities and price points. You can also make limited customizations to our original base models for your specific use case with fine-tuning.
-
-#### 🌡️ Temperature
-
-In the DeepSeek API, `temperature` is a parameter that controls the randomness of the generated text. Its value is between 0 and 1, inclusive.
-
-When the `temperature` is close to 1, the text generated by the model will be more random. In other words, when the model chooses the next word, it will make a more uniform selection among all possible words, even if the probabilities of some words are low. This may result in outputs that are more innovative, but it may also lead to reduced coherence and consistency in the outputs.
-
-When the `temperature` is close to 0, the text generated by the model will be more deterministic. That is, the model will be more inclined to choose the word with the highest probability when selecting the next word. This may result in outputs that are more coherent and consistent, but they may lack innovation.
-
-In summary, the `temperature` parameter can help you find a balance between innovation and coherence. If you want the generated text to be more innovative, you can try to increase the value of `temperature`; if you want the generated text to be more coherent, you can try to decrease the value of `temperature`.
-
-## 🗣️ Communication
-
-- You are welcome to join the QQ discussion group for discussions
-
-- DeepseekQQ Group 【957284835】 [Click to join QQ Group](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=KWl8ZyDCDrBRn4NCXUnr5MkyMTl0nwSK&authKey=iGZm2aZDWgj83khMCftofy7j8YIf0ulFSr4gaeXRbcOpTMWA1RRg%2BHRJ0A%2FVdPaa&noverify=0&group_code=957284835)
-- Or join by scanning the QQ QR code<br/>
-  <img src="https://static.docs-hub.com/qrcode.jpg" height="256">
-- Or share design architecture through the Official Accounts<br/>
-  <img src="https://vleedesigntheory.github.io/offical_accounts.jpg" height="256">
-
-## Benefits
-
-SiliconCloud's promotional campaign is now in full swing, with 20 million Tokens being given away! For each friend you invite to become a new SiliconCloud user, both you and your friend will receive 20 million Tokens (equivalent to 14 yuan platform quota). The more invites, the more rewards - enjoy the full SiliconCloud experience!
-
-[Click here to claim](https://cloud.siliconflow.cn/i/Cz4wrwb8)
-
-Scan the QR code to claim benefits
-
+Get 20 million DeepSeek Tokens for free (worth ¥14), limited quantity, first come first served
+- [Click to Get Offer](https://cloud.siliconflow.cn/i/Cz4wrwb8)
+- Or scan QR code to get offer
 ![](https://static.docs-hub.com/s_f_1738808704414.png)
 
-### 使用方式
 
-## 特色
+## 🚀 特色功能
 
-- 💻 可以复制、插入代码到当前文件和新文件中
-- 🚀 可以添加预定义提示词以便在提问的时候快速输入
-- 📤 可以导出代码或整个会话为 markdown 文件
-- 💾 可以将你的会话记录保存在本地硬盘,随时回放、继续和管理
-- 🔑 绑定自己的支持 DeepSeek R1 的 API key 之后可以使用 DeepSeek R1 模型
-- 🗣️ 绑定自己的 API key 之后支持流式上下文对话并且可以随时暂停回答
-- 🌐 可以使用你自己的 DeepSeek 服务器
-- 🔒 隐私安全,所有信息都保存在本地硬盘,不会将任何信息上传至任何服务器
-- 🌍 支持多种国家的语言,目前有英文、简体中文、繁体中文,如果你希望添加新的语言可以在这里提[issue](https://github.com/zhangrenyang/deepseek/issues)
+- 💻 **代码操作**：一键复制、插入代码到当前文件或新文件
+- 🔍 **智能分析**：代码解释、错误检测、重构建议、测试生成
+- 📝 **自定义提示**：支持添加和管理预定义提示词，提高提问效率
+- 💾 **本地存储**：会话记录保存在本地，随时回放、继续和管理
+- 🌐 **代理支持**：可配置自己的代理服务器，灵活访问 API
+- 🔒 **隐私保护**：所有信息本地存储，不上传任何数据
+- 🌍 **多语言**：支持中文、英文等多种语言界面
+- 🎯 **模型选择**：支持多种 DeepSeek 模型，满足不同需求
 
-## 命令
+## 📦 安装方式
 
-- **Deepseek:检查下面代码是否有 BUG 并给出修复建议 🐛**: 使用查找代码错误功能来分析和突出代码中的错误
-- **Deepseek:详细讲解下面代码 💬**: 使用解释代码功能来更好地理解您的代码
-- **Deepseek:重构下面代码并告诉我你改动了哪里 🔧**: 重构下面代码并告诉我你改动了哪里
-- **Deepseek:为下面的代码添加测试 🧪**: 为下面的代码添加测试
-- **Deepseek:选择预定义提示词 🔍**: 选择预定义提示词
-- **Deepseek:自定义提问 ❓**: 为 Deepseek 生成自定义查询
-- **Deepseek:增加预定义提示词 ➕**: 增加预定义提示词
-- **Deepseek:修改预定义提示词 ✏️**: 修改预定义提示词
-- **Deepseek:绑定自己的 API key🔀🔑**: 通过组合快捷键和命令轻松更新 API key
-- **Deepseek:验证 API key✔️🔑**: 验证 API key 以确保其有效性和正确功能
-- **Deepseek:解绑 API key🗑️🔑**: 解绑你自己的 API key
-- **Deepseek:修改显示语言 🌍**: 通过快捷键和命令来设定您想要的语言。预设是英文
-- **Deepseek:取消代理服务器设置 🌐**: 取消代理服务器设置
-- **Deepseek:发起提问 ❓**: 点击 Deepseek 图标并输入内容，然后按 Enter 键获取 Deepseek 的回答
-- **Deepseek:清空列表 🗑️**: 可以清空当前的会话
-- **Deepseek:导出 markdown📤**: 可以导出当前的会话为 markdown 文件
-- **Deepseek:绑定自己的代理服务器 🌐**: 通过输入自己的代理服务器信息，设定并使用自己的代理服务器
-- **Deepseek:解绑自己的代理服务器 🌐**: 解绑自己的代理服务器
-- **Deepseek:绑定模型**: 绑定要使用的模型（可选：deepseek-chat, deepseek-coder, deepseek-reasoner）
-- **Deepseek:解绑模型**: 解绑当前使用的模型
-- **Deepseek:清除所有自定义绑定**: 清除所有自定义设置，包括 API key、代理服务器和模型设置
+1.打开 VS Code
+2.按下 Ctrl+Shift+P 打开命令面板
+3.删除>后输入 ext install colourafredi.vscode-deepseek
+4.按回车键进行安装
 
-## 📖 使用
+![](https://static.docs-hub.com/i_n_s_t_a_l_l_v_s_c_o_d_e_1739010154275.png)
 
-### 🔧 安装扩展
+或者直接访问 [VS Code 市场](https://marketplace.visualstudio.com/items?itemName=colourafredi.vscode-deepseek) 安装
 
-从[VSCode 市场](https://marketplace.visualstudio.com/items?itemName=colourafredi.vscode-deepseek)安装扩展
+## 🛠️ 主要功能
 
-### 发起提问 ❓
+### 1. 代码分析和优化
+- **代码解释**：详细讲解代码逻辑和实现
+- **错误检测**：发现并修复代码中的 BUG
+- **代码重构**：优化代码结构，提升代码质量
+- **测试生成**：自动生成单元测试代码
 
-按下快捷键`Ctrl+Shift+P(Command + Shift + P )`,输入`Deepseek:发起提问 ❓`,按 Enter 键,输入你的问题,再次按 Enter 键,答案面板会自动打开并提供答案。
+### 2. 智能对话
+- **上下文对话**：支持多轮对话，理解上下文
+- **流式响应**：实时显示 AI 回答
+- **会话管理**：保存、导出、清理会话记录
+- **自定义提示**：支持预设常用提示词
 
-或者点击左侧的 Deepseek 图标,输入你想说的内容,按 Enter 键,等待几秒钟 Deepseek 的回复就会出现。
+### 3. 个性化配置
+- **API Key 管理**：支持绑定自己的 API Key
+- **代理设置**：可配置自定义代理服务器
+- **模型选择**：支持多种 DeepSeek 模型
+- **界面语言**：可切换多种界面语言
 
-在答案页面,第一个小图标是复制到剪贴板,第二个小图标是在当前光标位置插入答案,第三个小图标是创建并打开文件并在当前光标位置插入答案。
+## 💡 使用指南
 
-### 🔑 API key
+### 快速开始
+1. 安装插件后，点击 VS Code 左侧的 DeepSeek 图标
+2. 在输入框中输入问题，按回车发送
+3. 等待 AI 响应，可以：
+   - 复制回答内容
+   - 插入到当前文件
+   - 创建新文件保存
 
-### 📚 什么是 API key？
+### 代码相关功能
+1. 选中代码片段
+2. 右键选择 DeepSeek 相关命令：
+   - 解释代码
+   - 检查错误
+   - 重构优化
+   - 生成测试
 
-DeepSeek 的 API key 是一种用于验证和授权访问 DeepSeek 的 API（应用程序编程接口）的机制。API key 就像一个密码,允许开发者以安全的方式与 DeepSeek 的服务进行交互。API key 在建立服务器和客户端之间的连接中是一个关键因素,用于验证请求的合法性。通常,只有拥有有效 API key 的用户才能访问特定的 API。
+### 自定义设置
+- **API Key**：可绑定自己的 API Key 获取更多功能
+- **代理服务器**：配置代理地址实现更稳定的访问
+- **模型选择**：根据需求选择不同的 AI 模型
+- **提示词管理**：添加、编辑、选择预定义提示词
 
-以下是使用 DeepSeek API key 的一般步骤：
+## ⚙️ 配置说明
 
-- 创建 DeepSeek 账户：你首先需要[点击这里](https://chat.deepseek.com/sign_in)创建一个 DeepSeek 账户,然后在该账户中生成你的 API key。
+### 可配置参数：
 
-- 生成 API key：在 DeepSeek 的仪表盘上, [点击这里](https://platform.deepseek.com)你可以生成一个新的 API key。
+- `deepseek.proxy`：设置代理服务器
+- `deepseek.model`：选择使用的模型
+- `deepseek.apikey`：设置 API Key
+- `deepseek.temperature`：设置模型温度（0-2）
+- `deepseek.max_tokens`：设置最大 token 数
+- `deepseek.lang`：设置界面语言
 
-### 绑定自己的 API key🔀🔑
+### 配置方式：
+1. 点击File->Preferences->Settings->Extensions->DeepSeek
 
-按下快捷键`Ctrl+Shift+P(Command + Shift + P )`,输入`Deepseek:绑定自己的API key🔀🔑`,按 Enter 键,输入 API key,再次按 Enter 键,API key 就会更新。
+![](https://static.docs-hub.com/s_e_t_t_i_n_g_s_1739012644887.png)
 
-你也可以打开任何文件,右键选择`Deepseek:绑定自己的API key🔀🔑`,输入 API key,按 Enter 键更新 API key。如果更新成功,会显示 API key 的余额和到期日期以及支持的模型。如果更新失败,会提示重新输入 API key。
+### 配置官方API Key
+- [官方API Key申请](https://platform.deepseek.com/api_keys)
+- [可用模型](https://api-docs.deepseek.com/zh-cn/quick_start/pricing)
 
-### 验证 API key✔️🔑
+| 配置项 | 值 |
+|--------|-----|
+| DeepSeek:Proxy | https://api.deepseek.com |
+| Deepseek:Apikey | sk-c50d5356a45c4c7988b3df82fb1295e3 |
+| DeepseekModel | deepseek-chat, deepseek-reasoner |
 
-按下快捷键`Ctrl+Shift+P(Command + Shift + P )`,输入`Deepseek:验证API key ✔️🔑`,按 Enter 键,API key 就会被验证。
+![](https://static.docs-hub.com/c_o_n_f_i_g_1739012997753.png)
 
-你也可以打开任何文件,右键选择`Deepseek:验证API key ✔️🔑`,按 Enter 键验证 API key。如果验证成功,会显示 API key 的余额、到期日期和支持的模型。如果验证失败,你会收到 API key 无效的通知。
 
-### 解绑 API key🗑️🔑
+### 配置硅基流动的API Key
 
-按下快捷键`Ctrl+Shift+P(Command + Shift + P )`,输入`Deepseek:解绑API key 🗑️🔑`,你就可以解绑你自己的 API key。
+- [硅基流动的API Key申请](https://cloud.siliconflow.cn/account/ak)
+- [可用模型](https://cloud.siliconflow.cn/models)
 
-### 绑定模型
 
-按下快捷键`Ctrl+Shift+P(Command + Shift + P )`,输入`Deepseek:绑定模型`,按 Enter 键,输入要使用的模型名称（可选：deepseek-chat, deepseek-coder, deepseek-reasoner）,再次按 Enter 键确认。
+| 配置项 | 值 |
+|--------|-----|
+| DeepSeek:Proxy | https://api.siliconflow.cn |
+| Deepseek:Apikey | sk-kgahvlalrbfjyftxrcoiiliopeblhxsgrxtrrwgiqwwxwxth |
+| DeepseekModel | deepseek-ai/DeepSeek-V3, deepseek-ai/DeepSeek-R1 |
 
-### 解绑模型
+![](![](https://static.docs-hub.com/s_e_t_t_i_n_g_s_2_1739013334350.png))
 
-按下快捷键`Ctrl+Shift+P(Command + Shift + P )`,输入`Deepseek:解绑模型`,按 Enter 键即可解绑当前使用的模型。
 
-### 修改显示语言 🌍
+## 🤝 社区交流
 
-按下快捷键`Ctrl+Shift+P(Command + Shift + P )`,输入`Deepseek:修改显示语言 🌍`,按 Enter 键,选择你想要设置的语言。默认是英文。
+- QQ 群：957284835 [点击加入](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=KWl8ZyDCDrBRn4NCXUnr5MkyMTl0nwSK&authKey=iGZm2aZDWgj83khMCftofy7j8YIf0ulFSr4gaeXRbcOpTMWA1RRg%2BHRJ0A%2FVdPaa&noverify=0&group_code=957284835)
+- 问题反馈：[GitHub Issues](https://github.com/zhangrenyang/deepseek/issues)
 
-### 设置自定义的代理服务器 🌐
+## 🎁 福利活动
 
-按下快捷键`Ctrl+Shift+P(Command + Shift + P )`,输入`Deepseek:设置自定义的代理服务器 🌐`,然后输入你自己的代理服务器,你就可以使用你自己的代理服务器。
-
-注意,你的代理服务器必须支持 HTTPS,否则它将无法工作。
-
-### ❓ 设置
-
-- [DeepSeek API 指南](https://api-docs.deepseek.com/)
-
-用户可以通过以下步骤配置 VS Code 插件的配置参数：
-
-1. **打开设置：**
-   在 VS Code 中,按下快捷键`Ctrl+,`或者从顶部菜单栏选择`File > Preferences > Settings` (在 Mac 上是 `Code > Preferences > Settings`)。
-2. **搜索插件设置：**
-   在设置的搜索栏中,输入插件的名称或者配置参数的关键词。VS Code 会动态显示与你的输入匹配的配置选项。
-3. **修改配置参数：**
-   点击你想要修改的配置参数,然后输入新的值或者选择新的选项。你也可以通过点击编辑图标(铅笔图标)将配置参数添加到你的用户设置或者工作区设置中,然后在那里进行修改。
-4. **保存修改：**
-   VS Code 会在你修改设置后自动保存。关闭设置标签页或者点击其他地方,新的配置就会生效。
-
-#### 🧠 模型
-
-DeepSeek API 由一组具有不同功能和价格点的[模型](https://api-docs.deepseek.com/quick_start/pricing)驱动。你也可以通过微调对我们的原始基础模型进行有限的定制,以适应你的特定使用场景。
-
-可用的模型包括：
-
-- deepseek-chat：通用对话模型
-- deepseek-coder：专门用于代码相关任务的模型
-- deepseek-reasoner：具有强大推理能力的模型
-
-#### 🌡️ 温度
-
-在 DeepSeek API 中,`temperature`是一个控制生成文本随机性的参数。它的值在 0 到 1 之间(包括 0 和 1)。
-
-当`temperature`接近 1 时,模型生成的文本会更加随机。换句话说,当模型选择下一个词时,它会在所有可能的词中进行更均匀的选择,即使某些词的概率很低。这可能会产生更具创新性的输出,但也可能导致输出的连贯性和一致性降低。
-
-当`temperature`接近 0 时,模型生成的文本会更加确定。也就是说,在选择下一个词时,模型会更倾向于选择概率最高的词。这可能会产生更连贯和一致的输出,但可能缺乏创新性。
-
-总的来说,`temperature`参数可以帮助你在创新性和连贯性之间找到平衡。如果你希望生成的文本更具创新性,可以尝试增加`temperature`的值；如果你希望生成的文本更加连贯,可以尝试降低`temperature`的值。
-
-## 🗣️ 交流
-
-- 欢迎加入 QQ 讨论群进行交流
-
-- DeepseekQQ 群【957284835】[点击加入 QQ 群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=KWl8ZyDCDrBRn4NCXUnr5MkyMTl0nwSK&authKey=iGZm2aZDWgj83khMCftofy7j8YIf0ulFSr4gaeXRbcOpTMWA1RRg%2BHRJ0A%2FVdPaa&noverify=0&group_code=957284835)
-- 或者扫描 QQ 二维码加入<br/>
-  <img src="https://static.docs-hub.com/qrcode.jpg" height="256">
-- 或者通过公众号分享设计架构<br/>
-  <img src="https://vleedesigntheory.github.io/offical_accounts.jpg" height="256">
-
-## 福利
-
-SiliconCloud 送福利活动火热开启，2000 万 Tokens 送不停！每邀请一位好友成为 SiliconCloud 新用户，您与好友均可获赠 2000 万 Tokens（14 元平台配额）。邀请越多，奖励越多，畅享体验 SiliconCloud！
-
-[点击领取地址](https://cloud.siliconflow.cn/i/Cz4wrwb8)
-
-扫描二维码领取福利
-
+现在可以免费领取 2000 万 DeepSeek Tokens（价值 14 元），数量有限，先到先得
+- [点击领取福利](https://cloud.siliconflow.cn/i/Cz4wrwb8)
+- 或扫描二维码领取福利
 ![](https://static.docs-hub.com/s_f_1738808704414.png)
